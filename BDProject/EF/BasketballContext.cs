@@ -15,6 +15,7 @@ namespace BDProject.EF
         [MaxLength(30)]
         public string Name { get; set; }
     }
+    
     public class Game
     {
         public int Id { get; set; }
