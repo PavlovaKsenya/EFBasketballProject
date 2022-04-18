@@ -36,7 +36,6 @@ namespace BDProject.EF
             modelBuilder.Entity<Game>().HasOne(e => e.Team1).WithMany().OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<Game>().HasOne(e => e.Team2).WithMany().OnDelete(DeleteBehavior.Restrict);
         }
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=DESKTOP-IGV9F05\SQLEXPRESS;Database=BasketballGame;Trusted_Connection=True;MultipleActiveResultSets=True");
