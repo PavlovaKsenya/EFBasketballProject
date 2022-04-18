@@ -4,6 +4,7 @@ static void EFDemo()
 {
     BasketballContext db = new BasketballContext();   
 
+    //создание базы данных
     db.CreateDbIfNotExist();
 
     //Вывести результаты матчей(год, кто - с кем, очки1: очки2)
