@@ -2,6 +2,8 @@
 Дз1 Норникель
 
 ## Зависимости
-microsoft.entityframeworkcore.sqlserver 6.0.4
+Microsoft.EntityFrameworkCore.Sqlserver 6.0.4
 
-microsoft.entityframeworkcore.tools 6.0.4
+Microsoft.EntityFrameworkCore.Tools 6.0.4
+
+System.Data.SqlClient 4.8.3
